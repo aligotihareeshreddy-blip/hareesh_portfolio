@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venkata Hareesh Kumar Reddy Aligoti | Full Stack Engineer</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome for Premium Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
         tailwind.config = {
@@ -34,9 +32,9 @@
     </script>
     <style>
         .glass-panel {
-            background: rgba(30, 41, 59, 0.7);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.05);
         }
         .glow-effect:hover {
@@ -44,18 +42,16 @@
         }
     </style>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-primary selection:text-slate-950">
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-brand-primary selection:text-slate-950 bg-[url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070')] bg-fixed bg-cover bg-center bg-no-repeat bg-blend-multiply bg-slate-950/90">
 
-    <!-- Ambient Background Glows -->
     <div class="fixed top-0 left-1/4 w-96 h-96 bg-brand-primary/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
     <div class="fixed bottom-20 right-1/4 w-96 h-96 bg-brand-secondary/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
 
-    <!-- Navigation Header -->
-    <header class="sticky top-0 z-50 glass-panel border-b border-slate-900">
+    <header class="sticky top-0 z-50 glass-panel border-b border-slate-900/50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
             <div class="flex items-center gap-2">
                 <div class="h-3 w-3 rounded-full bg-brand-success animate-pulse"></div>
-                <span class="text-sm font-mono tracking-wider text-slate-400">HAREESH // PRODUCT ENGINEER</span>
+                <span class="text-sm font-mono tracking-wider text-slate-400">HAREESH REDDY // PRODUCT ENGINEER</span>
             </div>
             <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
                 <a href="#about" class="hover:text-brand-primary transition-colors">About</a>
@@ -70,37 +66,34 @@
         </div>
     </header>
 
-    <!-- Hero / Identity Section -->
     <section id="about" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
         <div class="max-w-4xl">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs font-mono text-brand-primary mb-6">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-900/80 border border-slate-800 text-xs font-mono text-brand-primary mb-6 backdrop-blur-sm">
                 <i class="fa-solid fa-bolt"></i> Shipping Scalable Distributed Systems
             </div>
             <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6 leading-none">
                 Building robust software <br>
                 <span class="bg-gradient-to-r from-brand-primary to-brand-secondary bg-clip-text text-transparent">with a product-first mindset.</span>
             </h1>
-            <p class="text-lg sm:text-xl text-slate-400 leading-relaxed max-w-3xl mb-10">
-                I am a Full Stack Engineer with **3.5+ years of experience** specializing in high-throughput payment architectures, microservices, and real-time merchant frameworks. I own features end-to-end—translating core business workflows into highly available, performant technical systems.
+            <p class="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-3xl mb-10 drop-shadow-sm">
+                I am a Full Stack Engineer specializing in high-throughput payment architectures, microservices, and real-time merchant frameworks. I own features end-to-end—translating core business workflows into highly available, performant technical systems.
             </p>
             
-            <!-- CTAs & Socials -->
             <div class="flex flex-wrap items-center gap-6">
                 <a href="mailto:hareeshreddyaligoti@gmail.com" class="bg-white text-slate-950 font-bold px-6 py-3 rounded-lg hover:bg-slate-200 transition-all flex items-center gap-2 text-sm shadow-lg shadow-white/5">
                     <i class="fa-solid fa-paper-plane"></i> Get In Touch
                 </a>
-                <a href="https://linkedin.com/in/hareeshreddyaligoti" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white transition-colors flex items-center gap-2 text-sm font-medium">
+                <a href="https://www.linkedin.com/in/hareesh-reddy-a53670235" target="_blank" rel="noopener noreferrer" class="text-slate-300 hover:text-white transition-colors flex items-center gap-2 text-sm font-medium">
                     <i class="fa-brands fa-linkedin text-xl"></i> LinkedIn Profile
                 </a>
-                <span class="text-slate-600 hidden sm:inline">|</span>
-                <span class="text-sm font-mono text-slate-500 hidden sm:inline"><i class="fa-solid fa-phone text-xs"></i> +91 7013492900</span>
+                <span class="text-slate-700 hidden sm:inline">|</span>
+                <span class="text-sm font-mono text-slate-400 hidden sm:inline"><i class="fa-solid fa-phone text-xs"></i> +91 7013492900</span>
             </div>
         </div>
     </section>
 
-    <!-- Product Mindset / Impact Metrics Dashboard -->
-    <section id="impact" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-slate-900">
-        <h3 class="text-xs font-mono uppercase tracking-widest text-slate-500 mb-8">Engineering Values & Core Focus</h3>
+    <section id="impact" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 border-t border-slate-900/50">
+        <h3 class="text-xs font-mono uppercase tracking-widest text-slate-400 mb-8">Engineering Values & Core Focus</h3>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
             
             <div class="glass-panel p-6 rounded-xl border border-slate-800">
@@ -130,22 +123,20 @@
         </div>
     </section>
 
-    <!-- Core Technology Stack Split Grid -->
-    <section id="stack" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-900">
+    <section id="stack" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-900/50">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div>
                 <h2 class="text-2xl font-bold text-white mb-4">Core Competencies</h2>
                 <p class="text-sm text-slate-400 leading-relaxed mb-6">
                     A collection of proven systems engineering components and architectural patterns utilized to deploy reliable production services.
                 </p>
-                <div class="inline-flex items-center gap-2 text-xs font-mono text-slate-500">
+                <div class="inline-flex items-center gap-2 text-xs font-mono text-slate-400">
                     <span class="h-2 w-2 rounded-full bg-brand-primary"></span> Production Proven Integration
                 </div>
             </div>
             
             <div class="lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <!-- Stack item -->
-                <div class="p-5 rounded-lg bg-slate-900/60 border border-slate-800/60">
+                <div class="glass-panel p-5 rounded-lg border border-slate-800/60">
                     <h4 class="font-bold text-white text-sm mb-3 flex items-center justify-between">
                         <span>Frontend Engineering</span>
                         <i class="fa-brands fa-react text-brand-primary"></i>
@@ -154,8 +145,7 @@
                         React.js, Redux State Preservation, Context API, Client Telemetry, Material UI, Tailwind CSS, WCAG-compliant design.
                     </p>
                 </div>
-                <!-- Stack item -->
-                <div class="p-5 rounded-lg bg-slate-900/60 border border-slate-800/60">
+                <div class="glass-panel p-5 rounded-lg border border-slate-800/60">
                     <h4 class="font-bold text-white text-sm mb-3 flex items-center justify-between">
                         <span>Distributed Backend</span>
                         <i class="fa-solid fa-server text-brand-secondary"></i>
@@ -164,8 +154,7 @@
                         Node.js distributed layers, Express.js microservices, JWT payload structures, fine-grained Role-Based Access Control (RBAC).
                     </p>
                 </div>
-                <!-- Stack item -->
-                <div class="p-5 rounded-lg bg-slate-900/60 border border-slate-800/60">
+                <div class="glass-panel p-5 rounded-lg border border-slate-800/60">
                     <h4 class="font-bold text-white text-sm mb-3 flex items-center justify-between">
                         <span>Databases & Cache</span>
                         <i class="fa-solid fa-database text-amber-500"></i>
@@ -174,8 +163,7 @@
                         Highly optimized MySQL schemas, complex index modeling, Sequelize ORM bindings, Redis strategic hot-path data caching.
                     </p>
                 </div>
-                <!-- Stack item -->
-                <div class="p-5 rounded-lg bg-slate-900/60 border border-slate-800/60">
+                <div class="glass-panel p-5 rounded-lg border border-slate-800/60">
                     <h4 class="font-bold text-white text-sm mb-3 flex items-center justify-between">
                         <span>Systems & Edge Protocols</span>
                         <i class="fa-solid fa-network-wired text-brand-success"></i>
@@ -188,20 +176,18 @@
         </div>
     </section>
 
-    <!-- Professional Experience Timeline -->
-    <section id="experience" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-900">
+    <section id="experience" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-900/50">
         <div class="flex flex-col md:flex-row md:justify-between items-start mb-12">
             <div>
                 <h2 class="text-2xl font-bold text-white mb-2">Professional Journey</h2>
                 <p class="text-sm text-slate-400">Engineering ownership over cloud systems and custom application paradigms.</p>
             </div>
-            <div class="mt-4 md:mt-0 px-4 py-2 bg-slate-900 border border-slate-800 rounded-lg text-xs font-mono text-slate-300">
-                TOTAL EXPERIENCE: 3.5+ YEARS
+            <div class="mt-4 md:mt-0 px-4 py-2 bg-slate-900/80 backdrop-blur-sm border border-slate-800 rounded-lg text-xs font-mono text-slate-300">
+                TOTAL EXPERIENCE: 4 YEARS
             </div>
         </div>
 
         <div class="space-y-8">
-            <!-- Timeline Item -->
             <div class="glass-panel p-6 sm:p-8 rounded-xl border border-slate-800 relative overflow-hidden">
                 <div class="absolute top-0 left-0 w-1 h-full bg-brand-primary"></div>
                 
@@ -217,7 +203,6 @@
                     </span>
                 </div>
 
-                <!-- Deep Technical Breakdown -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-slate-400">
                     <div>
                         <h4 class="text-xs font-mono text-white uppercase tracking-wider mb-2">Product Ownership & Architecture</h4>
@@ -240,15 +225,13 @@
         </div>
     </section>
 
-    <!-- Key Core Systems Architecture Projects -->
-    <section id="projects" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-900">
+    <section id="projects" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 border-t border-slate-900/50">
         <h2 class="text-2xl font-bold text-white mb-2">Production Implementations</h2>
         <p class="text-sm text-slate-400 mb-10">Deconstructed overviews of enterprise systems built, tested, and maintained.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             
-            <!-- Project Node -->
-            <div class="bg-slate-900/40 rounded-xl border border-slate-800/80 p-6 flex flex-col justify-between glow-effect transition-all">
+            <div class="glass-panel rounded-xl border border-slate-800/80 p-6 flex flex-col justify-between glow-effect transition-all">
                 <div>
                     <div class="text-brand-primary mb-4"><i class="fa-solid fa-network-wired text-xl"></i></div>
                     <h3 class="font-bold text-white text-lg mb-2">Multi-Tenant Payment Platform</h3>
@@ -266,8 +249,7 @@
                 </div>
             </div>
 
-            <!-- Project Node -->
-            <div class="bg-slate-900/40 rounded-xl border border-slate-800/80 p-6 flex flex-col justify-between glow-effect transition-all">
+            <div class="glass-panel rounded-xl border border-slate-800/80 p-6 flex flex-col justify-between glow-effect transition-all">
                 <div>
                     <div class="text-brand-secondary mb-4"><i class="fa-solid fa-chart-line text-xl"></i></div>
                     <h3 class="font-bold text-white text-lg mb-2">Real-Time Merchant Dashboard</h3>
@@ -285,8 +267,7 @@
                 </div>
             </div>
 
-            <!-- Project Node -->
-            <div class="bg-slate-900/40 rounded-xl border border-slate-800/80 p-6 flex flex-col justify-between glow-effect transition-all">
+            <div class="glass-panel rounded-xl border border-slate-800/80 p-6 flex flex-col justify-between glow-effect transition-all">
                 <div>
                     <div class="text-brand-success mb-4"><i class="fa-solid fa-calculator text-xl"></i></div>
                     <h3 class="font-bold text-white text-lg mb-2">Enterprise Accounting Sync</h3>
@@ -306,8 +287,7 @@
         </div>
     </section>
 
-    <!-- Academic & Verification Footer -->
-    <footer class="border-t border-slate-900 bg-slate-950/80 py-12 text-xs text-slate-500 font-mono">
+    <footer class="border-t border-slate-900/50 bg-slate-950/90 py-12 text-xs text-slate-500 font-mono backdrop-blur-md">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-6">
             <div class="text-center sm:text-left">
                 <p class="text-slate-400 font-sans font-bold">Venkata Hareesh Kumar Reddy Aligoti</p>
